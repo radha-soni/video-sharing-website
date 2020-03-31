@@ -1,0 +1,15 @@
+.searchbar {
+  text-align: center;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+.searchInput {
+  width: 700px;
+  border-radius: 5px;
+  padding: 10px;
+  border-color: black;
+  font-size: 18px;
+}

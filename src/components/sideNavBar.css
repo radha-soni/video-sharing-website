@@ -1,0 +1,27 @@
+.sidenavContainer {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #111;
+  height: 90vh;
+  width: 250px;
+}
+.sidenavlinks {
+  margin: 15px;
+}
+.sidenavlinks a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  padding: 6px 8px 6px 16px;
+}
+
+.sidenavlinks a:hover {
+  color: black;
+  background-color: white;
+}
+.iconhandler {
+  width: 50px;
+  padding-right: 30px;
+}
