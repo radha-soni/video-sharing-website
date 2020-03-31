@@ -49,6 +49,13 @@ function SideNavBar() {
           Feedback
         </a>
       </div>
+
+      <butoon className="signinbtn">
+        <span className="btnicon">
+          <i className="fa fa-user"></i>
+        </span>
+        Sign In
+      </butoon>
     </div>
   );
 }

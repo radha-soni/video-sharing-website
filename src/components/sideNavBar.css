@@ -30,3 +30,18 @@
   height: 100px;
   background-color: white;
 }
+
+.signinbtn {
+  text-align: center;
+  height: 46px;
+  width: 120px;
+  color: white;
+  outline: 1px solid white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 60px;
+  line-height: 3;
+}
+.btnicon {
+  padding-right: 10px;
+}

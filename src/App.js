@@ -7,7 +7,7 @@ import SideNavBar from "./components/SideNavBar";
 function App() {
   return (
     <div className="App">
-      {/* <SearchBar /> */}
+      <SearchBar />
       {/* <VideoContainer /> */}
       <SideNavBar />
     </div>
