@@ -7,7 +7,7 @@ function SearchBar() {
       <div className="dropdown">
         <button className="dropbtn">
           Category &nbsp;
-          <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+          <i className="fa fa-chevron-circle-down" aria-hidden="true"></i>
         </button>
         <div className="dropdown-content">
           <a href="/#">Sports</a>

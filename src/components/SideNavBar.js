@@ -6,6 +6,7 @@ function SideNavBar() {
       <div>
         <img
           className="logo"
+          alt="logo"
           src="https://www.travelmag.com/wp-content/uploads/2017/12/Headout-logo.png"
         />
       </div>
@@ -50,12 +51,12 @@ function SideNavBar() {
         </a>
       </div>
 
-      <butoon className="signinbtn">
+      <button className="signinbtn">
         <span className="btnicon">
           <i className="fa fa-user"></i>
         </span>
         Sign In
-      </butoon>
+      </button>
     </div>
   );
 }
