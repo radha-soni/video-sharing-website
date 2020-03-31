@@ -3,8 +3,8 @@
   position: fixed;
   flex-direction: column;
   align-items: flex-start;
-  background-color: #111;
-  height: 90vh;
+  background-color: #ec1943;
+  height: 100vh;
   width: 250px;
 }
 .sidenavlinks {
@@ -24,4 +24,9 @@
 .iconhandler {
   width: 50px;
   padding-right: 30px;
+}
+.logo {
+  width: 250px;
+  height: 100px;
+  background-color: white;
 }

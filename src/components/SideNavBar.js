@@ -3,6 +3,12 @@ import "../components/sideNavBar.css";
 function SideNavBar() {
   return (
     <div className="sidenavContainer">
+      <div>
+        <img
+          className="logo"
+          src="https://www.travelmag.com/wp-content/uploads/2017/12/Headout-logo.png"
+        />
+      </div>
       <div className="sidenavlinks">
         <a href="/#">
           <span className="iconhandler">
