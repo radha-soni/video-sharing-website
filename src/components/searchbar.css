@@ -1,11 +1,12 @@
 .searchbar {
-  margin: 26px;
   border: none;
+  padding-top: 20px;
   display: flex;
   position: fixed;
   background-color: white;
   width: 100%;
-  height: 45px;
+  height: 80px;
+  background-color: white;
 }
 .searchInput {
   width: 650px;
@@ -14,7 +15,9 @@
   border-color: black;
   font-size: 18px;
   height: 40px;
+  outline: none;
 }
+
 .dropbtn {
   background-color: #ec1943;
   color: white;

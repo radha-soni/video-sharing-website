@@ -23,14 +23,28 @@ function VideoContainer() {
   }, [data]);
   return (
     <div className="card">
-      {resizedData &&
+      {resizedData ? (
         resizedData.map(img => (
           <div className="imgcontainer" key={img}>
             <img src={img} alt="pic" />
-            <p>working on a computer</p>
+            <p className="videotitle">working on a computer</p>
             <p>Channel name</p>
+            <div className="rating">
+              user rating &nbsp;
+              <span className="fa fa-star checked"></span>
+              <span className="fa fa-star checked"></span>
+              <span className="fa fa-star checked"></span>
+              <span className="fa fa-star checked"></span>
+              <span className="fa fa-star"></span>
+            </div>
           </div>
-        ))}
+        ))
+      ) : (
+        <div className="loadercontainer">
+          <div className="loader"></div>
+          <h4>Loading</h4>
+        </div>
+      )}
     </div>
   );
 }

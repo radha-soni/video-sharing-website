@@ -3,7 +3,11 @@ import "../components/searchbar.css";
 function SearchBar() {
   return (
     <div className="searchbar">
-      <input className="searchInput" type="text" placeholder="Search.."></input>
+      <input
+        className="searchInput"
+        type="text"
+        placeholder="Search..."
+      ></input>
       <div className="dropdown">
         <button className="dropbtn">
           Category &nbsp;
