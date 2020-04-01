@@ -11,7 +11,6 @@ function App() {
         <SearchBar />
         <VideoContainer />
       </div>
-
       <SideNavBar />
     </div>
   );
